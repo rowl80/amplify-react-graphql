@@ -1,0 +1,56 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyapp-staging-93d6f-authRole",
+      "UnauthRoleArn": "arn:aws:iam::659078246174:role/amplify-amplifyapp-staging-93d6f-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::659078246174:role/amplify-amplifyapp-staging-93d6f-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplifyapp-staging-93d6f-deployment",
+      "UnauthRoleName": "amplify-amplifyapp-staging-93d6f-unauthRole",
+      "StackName": "amplify-amplifyapp-staging-93d6f",
+      "StackId": "arn:aws:cloudformation:us-east-1:659078246174:stack/amplify-amplifyapp-staging-93d6f/b0ea8a30-2363-11ef-ac2a-0edb36e93293",
+      "AmplifyAppId": "d2dbna7h7v5eq8"
+    }
+  },
+  "auth": {
+    "amplifyappb550ab8e": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyapp-staging-93d6f-deployment/amplify-cfn-templates/auth/amplifyappb550ab8e-cloudformation-template.json",
+        "logicalId": "authamplifyappb550ab8e"
+      },
+      "lastPushTimeStamp": "2024-06-05T18:21:13.541Z",
+      "output": {
+        "UserPoolId": "us-east-1_RNlnd2PWx",
+        "AppClientIDWeb": "4au4def03s5q8ig8g4tn3r9rh4",
+        "AppClientID": "51qfibs5253r2lqosmcagp9uvd",
+        "IdentityPoolId": "us-east-1:05391068-63b1-42cd-bacf-0646f88b74c1",
+        "UserPoolArn": "arn:aws:cognito-idp:us-east-1:659078246174:userpool/us-east-1_RNlnd2PWx",
+        "IdentityPoolName": "amplifyappb550ab8e_identitypool_b550ab8e__staging",
+        "UserPoolName": "amplifyappb550ab8e_userpool_b550ab8e"
+      },
+      "lastPushDirHash": "3eE6SsAzNV64LF/zYi5FEhfXQ4s="
+    }
+  }
+}
