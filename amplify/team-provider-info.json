@@ -32,6 +32,12 @@
     "categories": {
       "auth": {
         "amplifyappb550ab8e": {}
+      },
+      "api": {
+        "amplifyapp": {}
+      },
+      "storage": {
+        "s3bd81191f": {}
       }
     }
   }
